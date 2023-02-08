@@ -12,3 +12,19 @@ function mul(array)
 }
 print(sum);
 print(mul);
+
+console.log("-----------------------------");
+
+let arr=[1,2,3,4,5];
+let total = sumOfArray(arr);
+
+function sumOfArray(array)
+{
+  return array.reduce((a,b)=>(a+b));
+}
+function print(output)
+{
+  console.log(output);
+}
+print(total);
+
