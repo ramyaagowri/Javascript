@@ -28,3 +28,20 @@ function print(output)
 }
 print(total);
 
+console.log("---------------------------------");
+
+// Filtering the even
+
+let Arr=[1,4,2,5,6,7,8,9,10];
+function Arrayfilt(Array,printSum)
+{
+   let A= Array.filter((a)=>(a%2==0));
+  //  console.log(Array);
+   printSum(A);
+}
+function printSum(arr)
+{
+  console.log(...arr);
+}
+Arrayfilt(Arr,printSum);
+
