@@ -44,4 +44,23 @@ function printSum(arr)
   console.log(...arr);
 }
 Arrayfilt(Arr,printSum);
+console.log("---------------------------------");
+
+
+let nums=[1,2,3,4,5,6,7];
+function ArrayOp(Array,CBtoPrint,CBtosum)
+{
+  return CBtoPrint(CBtosum(Array));
+}
+function print(val)
+{
+  console.log(val);
+}
+function sum(array)
+{
+  return array.reduce((a,b)=>(a+b));
+}
+ArrayOp(nums,print,sum);
+
+
 
