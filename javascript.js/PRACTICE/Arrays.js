@@ -78,5 +78,20 @@ for(let x of itr)
     console.log("<br>"+x);  
 }
 
+// let val= require("readline-sync");
+// let m=val.question("Enter the no of rows");
+// let n=val.question("Enter the no of Cols");
+// let arr11=new Array();
+// for(let i=0;i<m;i++)
+// {
+//   arr11[i]=[];
+//   for(let j=0;j<n;j++)
+//   {
+//     arr11[i][j]=val.question("enter the array elements");
+//   }
+// }
+// console.log(arr11);
+
+
 
 
